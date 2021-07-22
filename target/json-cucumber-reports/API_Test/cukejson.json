@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-22T04:11:09.511Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7921072334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APISteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify that GET HTTP request is successful",
+        "description": "",
+        "id": "verify-that-api-requests-are-giving-expected-responses;verify-that-get-http-request-is-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 23417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APISteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1936990500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "GET HTTP request to URI \"https://reqres.in\" and resource \"/api/users?page\u003d2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"/api/users?page\u003d2\"",
+                  "offset": 57
+                }
+              ],
+              "location": "APISteps.getHTTPRequestToURIAndResource(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2200167,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that GET status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "APISteps.verifyThatGETStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 722513708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that the value of \"first_name\" for id 10 in response is \"Byron\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first_name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "10",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Byron\"",
+                  "offset": 63
+                }
+              ],
+              "location": "APISteps.verifyThatTheValueOfForIdInResponseIs(String,int,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api_tests"
+          },
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-22T04:11:20.098Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5034826125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APISteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify that POST request is successful",
+        "description": "",
+        "id": "verify-that-api-requests-are-giving-expected-responses;verify-that-post-request-is-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 343833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "APISteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7576125,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Payload with name \"Bryant\" and job \"BA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bryant\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"BA\"",
+                  "offset": 35
+                }
+              ],
+              "location": "APISteps.payload_with_name_and_job(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 955184459,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "POST HTTP request to URI \"https://reqres.in\" and resource \"/api/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://reqres.in\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"/api/users\"",
+                  "offset": 58
+                }
+              ],
+              "location": "APISteps.post_HTTP_request_to_URI_and_resource(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149417,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that POST status code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 32
+                }
+              ],
+              "location": "APISteps.verifyThatPOSTStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145102208,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that id is generated",
+            "match": {
+              "location": "APISteps.verify_that_id_is_generated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372159916,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify response JSON schema",
+            "match": {
+              "location": "APISteps.verify_response_JSON_schema()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api_tests"
+          },
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that API requests are giving expected responses",
+    "description": "",
+    "id": "verify-that-api-requests-are-giving-expected-responses",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/API_Test/API_Automation_Test.feature",
+    "tags": []
+  }
+]

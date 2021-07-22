@@ -1,0 +1,501 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3766286792,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 7
+                }
+              ],
+              "location": "Home_Page_Steps.launchBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3669342333,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to JQueryUI WebPage",
+            "match": {
+              "location": "Home_Page_Steps.userNavigatesToJQueryUIWebPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-22T04:11:26.846Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2589167,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Controlgroup_Page_Steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify that mulpitple options can be selected on ControlGroup tab",
+        "description": "",
+        "id": "home-page-verifications;verify-that-mulpitple-options-can-be-selected-on-controlgroup-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 78085792,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Controlgroup_Page_Steps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1969154916,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects Controlgroup option from left menu available under Widgets",
+            "match": {
+              "location": "Home_Page_Steps.userSelectsControlgroupOptionFromLeftMenuAvailableUnderWidgets()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 590322709,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects \"SUV\" from the horizontal dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUV\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Controlgroup_Page_Steps.userSelectsFromTheHorizontalDropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138402083,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on car type Automatic and Insurance for SUV",
+            "match": {
+              "location": "Controlgroup_Page_Steps.userClicksOnCarTypeAutomaticAndInsuranceForSUV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159884250,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "inputs number of cars as \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Controlgroup_Page_Steps.inputsNumberOfCarsAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 803947833,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "selects \"Truck\" from the vertical dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Truck\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Controlgroup_Page_Steps.selectsFromTheVerticalDropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160600125,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on car type Standard and Insurance option for truck",
+            "match": {
+              "location": "Controlgroup_Page_Steps.userClicksOnCarTypeStandardAndInsuranceOptionForTruck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52163208,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enters number of Cars as \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Controlgroup_Page_Steps.entersNumberOfCarsAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57584750,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicks on book now for truck",
+            "match": {
+              "location": "Controlgroup_Page_Steps.clicksOnBookNowForTruck()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui_tests"
+          },
+          {
+            "name": "@controlgroup"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Verifications",
+    "description": "",
+    "id": "home-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Web_Test/Controlgroup_Page_Test.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2577853416,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 7
+                }
+              ],
+              "location": "Home_Page_Steps.launchBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3254666167,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to JQueryUI WebPage",
+            "match": {
+              "location": "Home_Page_Steps.userNavigatesToJQueryUIWebPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-22T04:11:38.299Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1301000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Controlgroup_Page_Steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify drap and drop functionality",
+        "description": "",
+        "id": "home-page-verifications;verify-drap-and-drop-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 75490000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Controlgroup_Page_Steps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1666704667,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on droppable menu",
+            "match": {
+              "location": "Home_Page_Steps.userClicksOnDroppableMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 390299916,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User drags \"Drag me to my target\" and drops on \"Drop here\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Drag me to my target\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Drop here\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Droppable_Page_Steps.user_drags_and_drops_on(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26442292,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that success message \"Dropped!\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dropped!\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Droppable_Page_Steps.verify_that_success_message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui_tests"
+          },
+          {
+            "name": "@droppable"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Verifications",
+    "description": "",
+    "id": "home-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Web_Test/Droppable_Page_Test.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2471330208,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 7
+                }
+              ],
+              "location": "Home_Page_Steps.launchBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5094626959,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to JQueryUI WebPage",
+            "match": {
+              "location": "Home_Page_Steps.userNavigatesToJQueryUIWebPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-22T04:11:46.296Z",
+        "before": [
+          {
+            "result": {
+              "duration": 529834,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Controlgroup_Page_Steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify multiple element select functionality",
+        "description": "",
+        "id": "home-page-verifications;verify-multiple-element-select-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 75055292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Controlgroup_Page_Steps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2917012125,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on selectable menu",
+            "match": {
+              "location": "Home_Page_Steps.userClicksOnSelectableMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 518054334,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects multiple elements on page",
+            "match": {
+              "location": "Selectable_Page_Steps.userSelectsMultipleElementsOnPage(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Item 1",
+                  "Item 3",
+                  "Item 7"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33438333,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that multiple elements are selected",
+            "match": {
+              "location": "Selectable_Page_Steps.verifyThatMultipleElementsAreSelected(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Item 1",
+                  "Item 3",
+                  "Item 7"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui_tests"
+          },
+          {
+            "name": "@selectable"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Verifications",
+    "description": "",
+    "id": "home-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Web_Test/Selectable_Page_Test.feature",
+    "tags": []
+  }
+]

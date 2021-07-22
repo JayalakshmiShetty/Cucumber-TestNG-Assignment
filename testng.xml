@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nagarro Test Suite" verbose="1" >
+    <listeners>
+        <listener class-name="ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+
+    <test name="RestAssured API testcases"  parallel="none" thread-count="1" preserve-order="true">
+        <classes>
+            <class name="runner.APIRunner"/>
+        </classes>
+    </test>
+    <test name="Selenium Web UI testcases"  preserve-order="true">
+        <classes>
+            <class name="runner.WebUIRunner"/>
+        </classes>
+    </test>
+<!--    <test name="Appium mobile testcases"  preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="runner.AppiumRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
