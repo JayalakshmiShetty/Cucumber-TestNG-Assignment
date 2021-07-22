@@ -25,7 +25,8 @@ Run below commands on Intellij terminal
 
 ## Execution From Intellij:
 > - Right click on testng.xml file and click on "Run"
-> - Right click on .feature file and click on "Run"  
+> - Right click on .feature file in resourcs/features and click on "Run"  
+> - Righ click on TestRunner.class file 
 
 ## Steps To Run selenium and rest-assured Scripts
 - In Intellij termninal execute appium command mentioned in "Execution from Terminal"
