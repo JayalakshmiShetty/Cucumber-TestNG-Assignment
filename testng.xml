@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Nagarro Test Suite" verbose="1" >
+<suite name="Nagarro Test Suite with Appium RestAssured and Selenium tests" verbose="1" >
     <listeners>
         <listener class-name="ExtentReportListener.ExtentReporterNG" />
     </listeners>
@@ -15,9 +15,9 @@
             <class name="runner.WebUIRunner"/>
         </classes>
     </test>
-<!--    <test name="Appium mobile testcases"  preserve-order="true">-->
-<!--        <classes>-->
-<!--            <class name="runner.AppiumRunner"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Appium mobile testcases"  preserve-order="true">
+        <classes>
+            <class name="runner.AppiumRunner"/>
+        </classes>
+    </test>
 </suite>

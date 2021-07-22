@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><testng-results failed="0" passed="2" skipped="0" total="2">
-<suite duration-ms="17097" name="cucumber.runtime.formatter.TestNGFormatter">
-<test duration-ms="17097" name="cucumber.runtime.formatter.TestNGFormatter">
+<suite duration-ms="17195" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="17195" name="cucumber.runtime.formatter.TestNGFormatter">
 <class name="Verify that API requests are giving expected responses">
-<test-method duration-ms="10582" finished-at="2021-07-22T08:11:26Z" name="Verify that GET HTTP request is successful" started-at="2021-07-22T08:11:26Z" status="PASS"/>
-<test-method duration-ms="6515" finished-at="2021-07-22T08:11:26Z" name="Verify that POST request is successful" started-at="2021-07-22T08:11:26Z" status="PASS"/>
+<test-method duration-ms="11056" finished-at="2021-07-22T11:47:39Z" name="Verify that GET HTTP request is successful" started-at="2021-07-22T11:47:39Z" status="PASS"/>
+<test-method duration-ms="6139" finished-at="2021-07-22T11:47:39Z" name="Verify that POST request is successful" started-at="2021-07-22T11:47:39Z" status="PASS"/>
 </class>
 </test>
 </suite>

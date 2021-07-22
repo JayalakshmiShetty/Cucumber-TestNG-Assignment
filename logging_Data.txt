@@ -15,25 +15,25 @@ Body:
     "job": "BA"
 }
 HTTP/1.1 201 Created
-Date: Thu, 22 Jul 2021 04:11:26 GMT
+Date: Thu, 22 Jul 2021 07:47:39 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 78
 Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Etag: W/"4e-/GQTuyPSjKEzUPPZHtuFTEmuTyo"
-Via: 1.1 vegur
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"4e-yuf9eze+NK5n3h+w7GP4NyM+hnI"
+via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sq2q9OsvcXClP%2F%2BhEZjGvMUcIy8vyDDOU2mua8HNj3Bl3q7n3VKraKWDWpNN%2BLSLDZcEJU8xVCs3PCnfkGQIbRcXPLMp86a18QbRQ%2FKRleZC0MQcnPMwZ%2F5hW1w%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yIcmPlCv61Be%2FVjvvlcdrqvqerjjxjP9RhNtMNnMyEYQcrWU23egXtXNB27shXL5tMR4uEJOgNZx7qZO6%2F7H1l8a9xzL4WBktokl1AQeX4vdt8WP746P6j2TBHQ%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6729d32e2b293e67-SIN
+CF-RAY: 672b0fea8e2739c3-CDG
 alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
 
 {
     "name": "Bryant",
     "job": "BA",
-    "id": "788",
-    "createdAt": "2021-07-22T04:11:26.119Z"
+    "id": "296",
+    "createdAt": "2021-07-22T07:47:39.327Z"
 }
